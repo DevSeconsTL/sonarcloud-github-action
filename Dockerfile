@@ -14,7 +14,7 @@ ARG NODEJS_HOME=/opt/nodejs
 
 ENV PATH=${PATH}:${SONAR_SCANNER_HOME}/bin:${NODEJS_HOME}/bin
 
-# set up local envs in order to allow for special chars (non-asci) in filenames
+# set up local envs in order to allow for special chars (non-asci) in filenames...
 ENV LC_ALL="C.UTF-8"
 
 WORKDIR /opt
